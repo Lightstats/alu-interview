@@ -23,6 +23,3 @@ def minOperations(n):
     for key, value in clust.items():
         num_of_operations += key*value
     return num_of_operations
-
-
-print(minOperations(4))
